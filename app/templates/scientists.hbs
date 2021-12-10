@@ -1,0 +1,14 @@
+{{page-title "Bunny"}}
+
+{{!-- <h6> List Of Scientists </h6>
+
+<ul>
+    {{#each @model as |scientist|}}
+    <li>{{scientist}}</li>
+    {{/each}}
+</ul> --}}
+
+<PeopleList
+    @title = "List of Scientists"
+    @people = {{@model}}
+/>
